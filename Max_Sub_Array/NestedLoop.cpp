@@ -1,3 +1,11 @@
+/*
+
+    Time Complexity : O(N^2), Where N is the size of the array. Here total number of iterations are : N*(N–1)/2.
+
+    Space complexity : O(1), Constant space.
+
+*/
+
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
